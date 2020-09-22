@@ -1,0 +1,28 @@
+.mt-ruedita{
+  margin-top: 3rem;
+}
+
+@media only screen and (min-width: 992px){
+  .mt-ruedita{
+    margin-top: 8rem;
+  }
+}
+
+
+.animado {
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.mostrarArriba{
+  animation: mostarArriba 0.5s;
+}
+
+@keyframes mostarArriba{
+  0%{
+    transform: translateY(60px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
